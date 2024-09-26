@@ -24,8 +24,7 @@ console.log('Context: ${context}');
 
 axios.get(apiURL).then(displayPoem);
 
-}
 
 
 let poemFormElement = document.querySelector("#poem-generator-form");
-poemFormElement.addEventListener("submit", generatePoem)
+poemFormElement.addEventListener("submit", generatePoem)}

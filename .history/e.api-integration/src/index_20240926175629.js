@@ -23,7 +23,6 @@ console.log('Prompt: ${prompt}');
 console.log('Context: ${context}');
 
 axios.get(apiURL).then(displayPoem);
-
 }
 
 
